@@ -12,5 +12,8 @@
         <symbol id="icon-burger" viewBox="0 0 77 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="8" d="M4.8 27.2h67.2M4.8 4.8h67.2"></path>
         </symbol>
+        <symbol id="icon-close" viewBox="0 0 32 32">
+            <path d="M32 3.721l-3.721-3.721-12.279 12.279-12.279-12.279-3.721 3.721 12.279 12.279-12.279 12.279 3.721 3.721 12.279-12.279 12.279 12.279 3.721-3.721-12.279-12.279 12.279-12.279z"></path>
+        </symbol>
     </defs>
 </svg>
