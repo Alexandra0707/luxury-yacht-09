@@ -129,6 +129,11 @@
     fill: #1b414b;
   }
 
+ .socials-icon:hover,
+ .socials-icon:focus {
+   fill: #062730;
+ }
+
   .burger-btn {
     display: none;
   }
@@ -247,4 +252,9 @@
 
 .mob-socials-icon {
   fill: #fbfbfb;
+}
+
+.mob-socials-icon:hover, 
+.mob-socials-icon:focus {
+  fill: rgba(251, 251, 251, 0.8);
 }
