@@ -1,0 +1,178 @@
+.container {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.reviews {
+  margin-top: 80px;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  max-width: 335px;
+  margin: 0 auto 25px;
+}
+
+.reviews-subtitle {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+  max-width: 335px;
+  margin: 0 auto 40px;
+}
+
+.reviews-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  /* gap: 24px; */
+}
+
+.reviews-item-one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 24px;
+  padding: 32px 8px;
+  max-width: 335px;
+  height: 282px;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.reviews-item-two {
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 24px;
+  padding: 32px 8px;
+  max-width: 335px;
+  height: 282px;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.reviews-item-three {
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 24px;
+  padding: 32px 8px;
+  max-width: 335px;
+  height: 282px;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.reviews-img {
+  position: absolute;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+.reviews-title-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+
+.reviews-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  margin-left: 8px;
+  margin-right: 8px;
+  max-width: 303px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    text-shadow: none;
+    font-size: 48px;
+    max-width: 704px;
+  }
+
+  .reviews-subtitle {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 571px;
+    margin: 0 auto 75px;
+  }
+
+  .reviews-list {
+    margin-bottom: 150px;
+    gap: 32px;
+  }
+
+  .reviews-item-one {
+    max-width: 336px;
+  }
+
+  .reviews-item-two {
+    display: flex;
+    max-width: 336px;
+  }
+
+  .reviews-item-three {
+    display: none;
+    max-width: 336px;
+  }
+
+  .reviews-text {
+    max-width: 304px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    max-width: 854px;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .reviews-item-one {
+    padding: 32px 28px;
+    max-width: 376px;
+  }
+
+  .reviews-item-two {
+    display: flex;
+    padding: 32px 28px;
+    max-width: 376px;
+  }
+
+  .reviews-item-three {
+    display: flex;
+    padding: 32px 28px;
+    max-width: 376px;
+  }
+
+  .reviews-text {
+    margin-left: 0;
+    margin-right: 0px;
+    max-width: 320px;
+  }
+}
