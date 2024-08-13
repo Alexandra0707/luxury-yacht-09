@@ -1,84 +1,112 @@
 <header class="header">
-  <div class="container header-container">
+  <div class="header-container">
     <nav class="header-nav">
-      <a href="" class="logo">yachtjet</a>
-      <ul class="nav-btn">
-        <li><a href="" class="nav-link">About</a></li>
-        <li><a href="" class="nav-link">Yachts</a></li>
-        <li><a href="" class="nav-link">Reviews</a></li>
+      <a href="./index.html" class="header-logo">yachtjet</a>
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="#about-us" class="header-nav-link">About</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#our-yachts" class="header-nav-link">Yachts</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#reviews" class="header-nav-link">Reviews</a>
+        </li>
       </ul>
+      <button type="button" class="header-btn burger-btn">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./img/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
     </nav>
-
-    <ul class="socials">
-      <li class="socials-item">
-        <a href="https://www.instagram.com/goitclub/" class="socials-link">
-          <svg class="socials-icon" width="24" height="24">
+    <ul class="header-social-list">
+      <li class="header-social-item">
+        <a href="" class="header-social-link">
+          <svg class="social-icon" width="24" height="24">
             <use href="./img/icons.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
-      <li class="socials-item">
-        <a href="https://www.youtube.com/c/GoIT" class="socials-link">
-          <svg class="socials-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-youtube"></use>
+      <li class="header-social-item">
+        <a href="" class="header-social-link">
+          <svg class="social-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
-      <li class="socials-item">
-        <a href="https://www.facebook.com/goITclub/" class="socials-link">
-          <svg class="socials-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-facebook"></use>
+      <li class="header-social-item">
+        <a href="" class="header-social-link">
+          <svg class="social-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
     </ul>
-
-    <button class="burger-btn" type="button">
-      <svg class="burger-icon" width="21" height="7">
-        <use href="../img/icons.svg#icon-burger"></use>
-      </svg>
-    </button>
   </div>
-  <div class="mobile-menu is">
+
+  <!-- MOBILE MENU -->
+
+  <div class="mobile-menu is" id="mobile-menu">
     <div class="container mobile-menu-container">
-      <div class="mob-hed">
-        <a href="" class="mob-logo">yachtjet</a>
-        <button class="mob-menu-close">
-          <svg class="close" width="16" height="16">
-            <use href="../img/icons.svg#icon-close"></use>
+      <div class="menu-header-container">
+        <a href="#" class="header-logo">yachtjet</a>
+
+        <button class="menu-close-btn">
+          <svg width="16" height="16" class="menu-close-icon">
+            <use href="/img/icons.svg#icon-close"></use>
           </svg>
         </button>
       </div>
+
+      <nav class="mobile-menu-nav">
+        <ul class="mobmenu-list">
+          <li>
+            <a class="mobmenu-link mobmenu-hover-link" href="#about-us"
+              >about</a
+            >
+          </li>
+          <li><a class="mobmenu-link" href="#our-yachts">yachts</a></li>
+          <li><a class="mobmenu-link" href="#reviews">reviews</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <ul class="mobmenu-soc-list">
+          <li class="mobmenu-soc-item">
+            <a
+              class="mobmenu-soc-link"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+            >
+              <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobmenu-soc-item">
+            <a
+              class="mobmenu-soc-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+            >
+              <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobmenu-soc-item">
+            <a
+              class="mobmenu-soc-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+            >
+              <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="mob-nav">
-      <ul class="nav-btn mob-nav-btn">
-        <li><a href="" class="nav-link">About</a></li>
-        <li><a href="" class="nav-link">Yachts</a></li>
-        <li><a href="" class="nav-link">Reviews</a></li>
-      </ul>
-    </div>
-    <ul class="socials mob-soc">
-      <li class="socials-item">
-        <a href="https://www.instagram.com/goitclub/" class="socials-link">
-          <svg class="mob-socials-icon" width="24" height="24">
-            <use href="./img/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="socials-item">
-        <a href="https://www.youtube.com/c/GoIT" class="socials-link">
-          <svg class="mob-socials-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-youtube"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="socials-item">
-        <a href="https://www.facebook.com/goITclub/" class="socials-link">
-          <svg class="mob-socials-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
   </div>
 </header>
