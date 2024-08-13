@@ -34,12 +34,13 @@
 .form-label {
   width: 100%;
 }
+
 .form-input {
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 18px;
-
+  color: rgba(251, 251, 251, 0.4);
   height: 42px;
   background-color: transparent;
   transition: border 250ms linear;
@@ -47,7 +48,7 @@
 
 .form-input-area {
   height: 116px;
-
+  color: rgba(251, 251, 251, 0.4);
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
