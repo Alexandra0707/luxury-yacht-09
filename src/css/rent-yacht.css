@@ -1,4 +1,4 @@
-.container {
+.rent-container {
   max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
@@ -9,6 +9,8 @@
 }
 
 .div-form-rent {
+  margin: 0 auto;
+  max-width: 335px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -32,12 +34,16 @@
 .form-label {
   width: 100%;
 }
+
 .form-input {
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 18px;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.4);
   height: 42px;
   background-color: transparent;
   transition: border 250ms linear;
@@ -45,7 +51,10 @@
 
 .form-input-area {
   height: 116px;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.4);
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
@@ -101,6 +110,7 @@
 }
 
 .img-rent {
+  max-width: 335px;
   margin: 0 auto;
   border-radius: 24px;
   width: 335px;
@@ -125,12 +135,9 @@
   }
 
   .div-form-rent {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: 50px;
     margin-bottom: 100px;
-  }
-
-  .div-form-rent {
     max-width: 473px;
   }
 
@@ -151,7 +158,8 @@
   }
 
   .img-rent {
-    width: 704px;
+    margin: 0 auto;
+    max-width: 704px;
     height: 534px;
   }
 }
@@ -159,20 +167,30 @@
 @media (min-width: 1280px) {
   .container {
     padding: 0 50px;
+    margin: 0 auto;
+  }
+
+  .section-rent {
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .div-section-rent {
+    margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
   }
 
   .img-rent {
-    width: 658px;
+    max-width: 658px;
     height: 536px;
   }
 
   .div-form-rent {
+    margin-left: 0;
+    margin-right: 50px;
     width: 472px;
+    margin-bottom: 0;
   }
 }
