@@ -1,3 +1,7 @@
+.our-yachts{
+padding-bottom: 80px;
+}
+
 .our-yachts-container {
     display: flex;
     flex-direction: column;
@@ -180,7 +184,7 @@
     color: #040306;
 }
 
-.btn {
+.btn-yacht-rental-link {
     background-color: #0E1823;
     color: #FFFFFF;
     border: 1px solid rgba(251, 251, 251, 0.35);
@@ -219,6 +223,10 @@
         min-width: 336px;
     }
 
+    .our-yachts {
+        padding-bottom: 150px;
+        }
+    
 }
 
 @media (min-width: 1280px) {
