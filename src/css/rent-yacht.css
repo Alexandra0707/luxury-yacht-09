@@ -9,6 +9,7 @@
 }
 
 .div-form-rent {
+  max-width: 335px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -101,6 +102,7 @@
 }
 
 .img-rent {
+  max-width: 335px;
   margin: 0 auto;
   border-radius: 24px;
   width: 335px;
@@ -151,7 +153,7 @@
   }
 
   .img-rent {
-    width: 704px;
+    max-width: 704px;
     height: 534px;
   }
 }
@@ -168,7 +170,7 @@
   }
 
   .img-rent {
-    width: 658px;
+    max-width: 658px;
     height: 536px;
   }
 
