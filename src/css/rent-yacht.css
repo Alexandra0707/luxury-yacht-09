@@ -40,6 +40,9 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
   color: rgba(251, 251, 251, 0.4);
   height: 42px;
   background-color: transparent;
@@ -48,6 +51,9 @@
 
 .form-input-area {
   height: 116px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
   color: rgba(251, 251, 251, 0.4);
   width: 100%;
   border: 1px solid rgba(251, 251, 251, 0.2);
