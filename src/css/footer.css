@@ -17,7 +17,7 @@
 
 .footer-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
   justify-content: space-between;
   margin-bottom: 80px;
