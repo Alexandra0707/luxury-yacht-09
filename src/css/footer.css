@@ -17,6 +17,7 @@
 
 .footer-nav {
   display: flex;
+  align-items: center;
   text-align: center;
   justify-content: space-between;
   margin-bottom: 80px;
@@ -156,6 +157,7 @@
 
   .footer-top {
     display: flex;
+    align-items: center;
     text-align: center;
     justify-content: space-between;
     margin-bottom: 96px;
@@ -177,6 +179,7 @@
   }
   .footer-container-icon {
     width: 88px;
+    margin: 0;
   }
 
   .footer-information-title {
