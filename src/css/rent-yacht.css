@@ -128,12 +128,9 @@
   }
 
   .div-form-rent {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: 50px;
     margin-bottom: 100px;
-  }
-
-  .div-form-rent {
     max-width: 473px;
   }
 
@@ -154,6 +151,7 @@
   }
 
   .img-rent {
+    margin: 0 auto;
     max-width: 704px;
     height: 534px;
   }
@@ -162,9 +160,16 @@
 @media (min-width: 1280px) {
   .container {
     padding: 0 50px;
+    margin: 0 auto;
+  }
+
+  .section-rent {
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .div-section-rent {
+    margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
@@ -176,6 +181,8 @@
   }
 
   .div-form-rent {
+    margin-left: 0;
+    margin-right: 50px;
     width: 472px;
   }
 }
