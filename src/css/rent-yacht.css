@@ -9,6 +9,7 @@
 }
 
 .div-form-rent {
+  margin: 0 auto;
   max-width: 335px;
   display: flex;
   flex-direction: column;
